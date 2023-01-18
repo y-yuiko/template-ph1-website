@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+    align-items: center;
+    height: 80px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    align-items: center;
+}
+
+footer {
+
+}
+.posse-line {
+    background: url(/assets/img/bg-line.jpg);
+    background-size: cover;
+    position: relative;
+    height:357px;
+    width:984px;
+    border-radius: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.posse-line::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color:#0071BC;
+        opacity: 0.9;
+        border-radius: 48px;
+        text-align: center;
+}
+.posse-line-inner {
+    position: relative;
+}
+.posse-line-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 68px;
+}
+.bi {
+    background-image: radial-gradient(#ffff 0% 60%, #d3685000 60% 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 48px;
+}
+.posse-line-text {
+    font-size: 36px;
+    color: white;
+}
+.inner-text {
+    color: #ffff;
+    text-align: center;
+    margin-top: 16px;
+    line-height: 22.4px;
+}
+.posse-line-bottom {
+    background-color: white;
+    width: 320px;
+    height: 50px;
+    border-radius: 98px;
+    position: absolute;
+    margin-left: 333px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+}
+.posse-limit {
+    text-align: center;
+}
+.posse-line-bottom img {
+    height: 12.25px;
+    width: 12.25px;
+    align-items: center;
+    margin-left: 98.29px;
+    margin-right: 25.29px;
+}
+.posse-line-box {
+    color: #666666;
+    font-size: 14px;
+}
+.posse-center{
+    text-align: center;
+    color: #666666;
+    text-align: center;
+    align-items: center;
+    border-top: solid 1px #EEEEEE;
+    margin-top: 80px;
+}
+.posse-site-logo {
+    margin-top: 56px;
+}
+.posse-last {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 6.29px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.posse-name-1 {
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.posse-logo {
+    width: 12.25px;
+    height: 12.25px;
+}
+.posse-last-2 {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.twitter {
+   
+    border: solid #666666 1px;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.instagram {
+    
+    border: solid #666666 1px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.footer-bottom {
+    padding: 31px 0 ;
+    text-align: center;
+    height: 14px;
+    border-top: solid #666666 1px;
+    margin-top: 50px;
+}
